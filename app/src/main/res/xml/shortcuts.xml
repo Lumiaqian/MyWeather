@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="shortcut1"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut"
+        android:shortcutShortLabel="@string/oneShort"
+        android:shortcutLongLabel="@string/oneShort"
+        android:shortcutDisabledMessage="@string/one_disabled">
+        <intent
+            android:action="one"
+            android:targetPackage="com.example.cao156.weather"
+            android:targetClass="com.example.cao156.weather.MainActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="shortcut2"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut"
+        android:shortcutShortLabel="@string/twoShort"
+        android:shortcutLongLabel="@string/twoShort"
+        android:shortcutDisabledMessage="@string/one_disabled">
+        <intent
+            android:action="two"
+            android:targetPackage="com.example.cao156.weather"
+            android:targetClass="com.example.cao156.weather.MainActivity" />
+    </shortcut>
+</shortcuts>

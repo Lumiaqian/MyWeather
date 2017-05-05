@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="city">城市管理</string>
+    <string name="oneShort">城市管理</string>
+    <string name="one_disabled">不可用</string>
+    <string name="twoShort">添加城市</string>
+</resources>
